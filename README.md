@@ -25,3 +25,5 @@ Run the index file with th
 ```
 pnpm dev
 ```
+
+[giget]: https://github.com/unjs/giget
