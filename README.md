@@ -17,13 +17,13 @@ npx giget --install gh:ralacerda/typescript-playground-template new-project-name
 
 Install the dependencies
 
-```
+```sh
 pnpm i
 ```
 
 Run the code
 
-```
+```sh
 # Start in watch mode
 pnpm dev
 
