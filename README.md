@@ -2,6 +2,7 @@
 
 A simple template playground for Node with Typescript.
 Eslint and Prettier are included.
+This uses node type striping, so make sure you have Node 23 or later
 
 ## How to use
 
@@ -20,10 +21,14 @@ Install the dependencies
 pnpm i
 ```
 
-Run the index file with th
+Run the code
 
 ```
+# Start in watch mode
 pnpm dev
+
+# Run the code once
+pnpm start
 ```
 
 [giget]: https://github.com/unjs/giget
