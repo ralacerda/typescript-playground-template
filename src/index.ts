@@ -1,4 +1,4 @@
-import { banana } from "./anotherFile.ts";
+import { banana } from "./another-file.ts";
 
 function greet(name: string): string {
   return `Hello, ${name}!`;
