@@ -2,8 +2,8 @@ import eslintPluginUnicorn from "eslint-plugin-unicorn";
 import tseslint from "typescript-eslint";
 
 export default [
-  eslintPluginUnicorn.configs.all,
-  ...tseslint.configs.all,
+  eslintPluginUnicorn.configs.recommended,
+  ...tseslint.configs.recommended,
   {
     files: ["src/*.ts"],
     plugins: {
