@@ -1,7 +1,7 @@
 import eslintPluginUnicorn from "eslint-plugin-unicorn";
 import tseslint from "typescript-eslint";
 
-export default [
+export default tseslint.config([
   eslintPluginUnicorn.configs.recommended,
   ...tseslint.configs.recommended,
   {
@@ -16,4 +16,4 @@ export default [
       },
     },
   },
-];
+]);
