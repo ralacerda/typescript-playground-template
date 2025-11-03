@@ -5,7 +5,7 @@ export default tseslint.config([
   eslintPluginUnicorn.configs.recommended,
   ...tseslint.configs.recommended,
   {
-    files: ["src/*.ts"],
+    files: ["src/**/*.ts"],
     plugins: {
       "@typescript-eslint": tseslint.plugin,
     },
